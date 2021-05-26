@@ -1,0 +1,135 @@
+
+.background {
+    position: relative;
+    background: url('a.jpg');
+    background-repeat: no-repeat;
+    height: 2500px;
+    border: 2px solid black;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+  }
+  .foreground{
+    width: 900px;
+    height: 2000px;
+    /* background: url('Des.jpg'); */
+    backdrop-filter: blur(10px);
+    border-radius: 3px solid rgba(255, 255, 255, 0.096);
+    background-color: rgba(0, 0, 0,0.1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    border-top-right-radius:15px;
+    border-top-left-radius:15px;
+    border-bottom-right-radius:15px;
+    border-bottom-left-radius:15px;
+    
+}
+.innercontent{
+    background: url('el.jfif');
+    background-repeat: no-repeat;
+    height: 250px;
+    background-size: 100%;
+    border-top-right-radius:15px;
+    border-top-left-radius:15px;
+    border-bottom-right-radius:15px;
+    border-bottom-left-radius:15px;
+    margin: 30px 30px 30px;
+}
+h1{
+   color: rgb(255, 230, 0);
+   margin-left: 80px;
+}
+h3{
+  color: yellow;
+}
+.Table{
+  color: black;
+}
+img{
+    border-top-right-radius:15px;
+    border-top-left-radius:15px;
+    border-bottom-right-radius:15px;
+    border-bottom-left-radius:15px;
+
+}
+.links{
+    font-size: medium;
+   text-decoration: none;
+}
+input{
+    border-radius: 15px;
+}
+table,h3,p,img
+{
+  margin-left: 30px;
+}
+form{
+  margin-left: 20px;
+
+}
+form
+{
+  font-size:larger;
+  font-weight: 1000;
+  color: black;
+}
+
+
+input{
+  direction: ltr; 
+  width: 80%;
+  margin: 0 auto;
+}
+
+label {
+ 
+  width: 6em;
+  text-align: right;
+  padding-right: 0.5em;
+  display: inline;
+
+}
+
+form {
+  padding: 0.25em;
+}
+input, textarea {
+  text-align: left;
+  width: 20em;
+  padding: 0.25em;
+
+}
+label {
+  display: inline-block;
+  /* width: 110px; */
+  color: #777777;
+}
+input {
+  padding: 5px 10px;
+  width: 80%;
+}
+input[type=button], input[type=submit], input[type=reset] {
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 15%;
+  border-radius: 0px;
+  color:black;
+}
+input[type=radio], input[type=checkbox] {
+
+  width: 5%;
+  padding:0px;
+  margin: 0px;
+
+
+}
+input[button]{
+  margin-left: 20%;
+}
